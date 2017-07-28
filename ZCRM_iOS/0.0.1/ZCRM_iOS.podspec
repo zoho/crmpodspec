@@ -30,19 +30,13 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/zoho/CRM-iOSSDK"
   s.author           = { "BoopathyPSiva" => "boopathy.p@zohocorp.com" }
   s.source           = { :git => "https://github.com/zoho/CRM-iOSSDK.git", :tag => s.version }
-  s.social_media_url = "https://www.zoho.com/"
+  s.social_media_url = "https://zoho.com"
   s.platform     = :ios, '8.0'
   s.requires_arc = true
   s.source_files = 'ZCRMiOS/*.{h,m,swift}'
   #s.frameworks = 'Foundation'
   s.module_name = 'ZCRM_iOS'
 
-  #s.subspec 'AppExtension' do |ap|
-  #ap.source_files = 'native/ClientUsers/IAM_ClientUsers/*.{h,m}'
-  #ap.ios.deployment_target = '8.0'
-  #ap.watchos.deployment_target = "2.0"
-  #ap.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited)
-  #CP_APP__EXTENSION_API_ONLY=1' }
   #end
 
 end
