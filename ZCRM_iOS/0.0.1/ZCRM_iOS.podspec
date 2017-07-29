@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://zoho.com"
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-  s.source_files = 'ZCRMiOS/*.{h,m,swift}'
+  s.source_files = 'native/ZCRMiOS/*.swift'
   #s.frameworks = 'Foundation'
   s.module_name = 'ZCRM_iOS'
 
